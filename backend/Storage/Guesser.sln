@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer_Guesser", "BusinessLayer_Guessser\BusinessLayer_Guesser.csproj", "{A792F5B8-F199-4800-9927-E8C5C71C7CA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer_Guesser", "DataLayer_Guesser\DataLayer_Guesser.csproj", "{B02023A7-88B7-4DD0-A00A-5C99BEEAA173}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared_Guesser", "Shared_Guesser\Shared_Guesser.csproj", "{E02CDC58-FE24-4915-8726-3DC81C9788CA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3ABCE3D1-3A8B-472E-BFE9-DEBAF7F05359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Containers", "Containers", "{DCB1EF6B-4B46-42E5-916D-BFE936AE4A36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grafana", "Grafana", "{6F6F5556-1862-4493-804D-94F7165AB32F}"
+	ProjectSection(SolutionItems) = preProject
+		Containers\Grafana\Dockerfile = Containers\Grafana\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loki", "Loki", "{6DC16978-9C05-444F-96C5-7CC12C230F20}"
+	ProjectSection(SolutionItems) = preProject
+		Containers\Loki\Dockerfile = Containers\Loki\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nginx", "Nginx", "{610A96A7-AD72-406D-A327-4C0387F73680}"
+	ProjectSection(SolutionItems) = preProject
+		Containers\Nginx\Dockerfile = Containers\Nginx\Dockerfile
+		Containers\Nginx\nginx.conf = Containers\Nginx\nginx.conf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postgres", "Postgres", "{2716727F-D7F4-402B-A380-FBF5D3905E46}"
+	ProjectSection(SolutionItems) = preProject
+		Containers\Postgres\Dockerfile = Containers\Postgres\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Promtail", "Promtail", "{C9EF991E-F70C-4B00-B35E-EAE189A10C83}"
+	ProjectSection(SolutionItems) = preProject
+		Containers\Promtail\Dockerfile = Containers\Promtail\Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Guesser", "Api_Guesser\Api_Guesser.csproj", "{CD1B8FF1-9360-49F5-B3CC-3028AD5031BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A792F5B8-F199-4800-9927-E8C5C71C7CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A792F5B8-F199-4800-9927-E8C5C71C7CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A792F5B8-F199-4800-9927-E8C5C71C7CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A792F5B8-F199-4800-9927-E8C5C71C7CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02023A7-88B7-4DD0-A00A-5C99BEEAA173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02023A7-88B7-4DD0-A00A-5C99BEEAA173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02023A7-88B7-4DD0-A00A-5C99BEEAA173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02023A7-88B7-4DD0-A00A-5C99BEEAA173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02CDC58-FE24-4915-8726-3DC81C9788CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02CDC58-FE24-4915-8726-3DC81C9788CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02CDC58-FE24-4915-8726-3DC81C9788CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02CDC58-FE24-4915-8726-3DC81C9788CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABCE3D1-3A8B-472E-BFE9-DEBAF7F05359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABCE3D1-3A8B-472E-BFE9-DEBAF7F05359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABCE3D1-3A8B-472E-BFE9-DEBAF7F05359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABCE3D1-3A8B-472E-BFE9-DEBAF7F05359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1B8FF1-9360-49F5-B3CC-3028AD5031BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1B8FF1-9360-49F5-B3CC-3028AD5031BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1B8FF1-9360-49F5-B3CC-3028AD5031BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1B8FF1-9360-49F5-B3CC-3028AD5031BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F6F5556-1862-4493-804D-94F7165AB32F} = {DCB1EF6B-4B46-42E5-916D-BFE936AE4A36}
+		{6DC16978-9C05-444F-96C5-7CC12C230F20} = {DCB1EF6B-4B46-42E5-916D-BFE936AE4A36}
+		{610A96A7-AD72-406D-A327-4C0387F73680} = {DCB1EF6B-4B46-42E5-916D-BFE936AE4A36}
+		{2716727F-D7F4-402B-A380-FBF5D3905E46} = {DCB1EF6B-4B46-42E5-916D-BFE936AE4A36}
+		{C9EF991E-F70C-4B00-B35E-EAE189A10C83} = {DCB1EF6B-4B46-42E5-916D-BFE936AE4A36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7096CA6-702F-407D-9EA8-7DFF5F8C1275}
+	EndGlobalSection
+EndGlobal

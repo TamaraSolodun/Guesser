@@ -1,0 +1,9 @@
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\bin\Debug\netcoreapp3.1\Shared_Guesser.deps.json
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\bin\Debug\netcoreapp3.1\Shared_Guesser.dll
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\bin\Debug\netcoreapp3.1\Shared_Guesser.pdb
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\obj\Debug\netcoreapp3.1\Shared_Guesser.csprojAssemblyReference.cache
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\obj\Debug\netcoreapp3.1\Shared_Guesser.AssemblyInfoInputs.cache
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\obj\Debug\netcoreapp3.1\Shared_Guesser.AssemblyInfo.cs
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\obj\Debug\netcoreapp3.1\Shared_Guesser.csproj.CoreCompileInputs.cache
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\obj\Debug\netcoreapp3.1\Shared_Guesser.dll
+C:\Users\argen\source\repos\Guesser\Shared_Guesser\obj\Debug\netcoreapp3.1\Shared_Guesser.pdb

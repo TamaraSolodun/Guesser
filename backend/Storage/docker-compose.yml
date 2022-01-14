@@ -1,0 +1,91 @@
+version: '3.4'
+
+services:
+  nginx:
+    build:
+      context: ./Containers/Nginx
+      dockerfile: Dockerfile
+    restart: always
+    container_name: nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - api-n1
+    networks:
+      - guesser
+
+  api-n1:
+    build:
+      context: .
+      dockerfile: Api_Guesser/Dockerfile
+    restart: always
+    container_name: api-n1
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./Storage/Log:/app/log:rw
+    networks:
+      - guesser
+
+  loki:
+    build:
+      context: ./Containers/Loki
+      dockerfile: Dockerfile
+    restart: always
+    container_name: loki
+    command: -config.file=/etc/loki/local-config.yaml
+    ports:
+      - "3100:3100"
+    networks:
+      - guesser
+
+  promtail:
+    build:
+      context: ./Containers/Promtail
+      dockerfile: Dockerfile
+    restart: always
+    container_name: promtail    
+    command: -config.file=/etc/promtail/config.yml
+    ports:
+      - "9080:9080"
+    volumes:
+      - ./Storage/Log:/var/log
+    networks:
+      - guesser
+ 
+  grafana:
+    build:
+      context: ./Containers/Grafana
+      dockerfile: Dockerfile
+    restart: always
+    container_name: grafana
+    ports:
+      - "3050:3000"
+    volumes:
+      - ./Storage/Grafana:/var/lib/grafana
+    networks:
+      - guesser
+
+  postgres:
+    build:
+      context: ./Containers/Postgres
+      dockerfile: Dockerfile
+    restart: always
+    container_name: postgres
+    ports:
+      - "6000:5432"
+    environment:
+      POSTGRES_USER: 'root'
+      POSTGRES_PASSWORD: 'Gu10es04ser'
+      POSTGRES_DB: 'guesserDb'
+    volumes:
+      - guesservol:/var/lib/postgresql/data
+    networks:
+      - guesser
+
+volumes:
+  guesservol:
+    external: true
+
+networks:
+  guesser:

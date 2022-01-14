@@ -1,0 +1,650 @@
+2021-05-12 07:53:07.727 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 07:53:07.772 +00:00 [INF] Service has been started
+2021-05-12 07:53:07.775 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 07:53:07.777 +00:00 [INF] Hosting environment: Development
+2021-05-12 07:53:07.779 +00:00 [INF] Content root path: /app
+2021-05-12 08:04:25.631 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 08:04:25.675 +00:00 [INF] Service has been started
+2021-05-12 08:04:25.678 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 08:04:25.681 +00:00 [INF] Hosting environment: Development
+2021-05-12 08:04:25.684 +00:00 [INF] Content root path: /app
+2021-05-12 08:05:28.202 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:05:28.595 +00:00 [ERR] Not found error #1961201874: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:06:37.602 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:06:37.768 +00:00 [ERR] Not found error #488235797: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:07:36.264 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:07:36.398 +00:00 [ERR] Not found error #1837046870: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:16:51.726 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:16:51.898 +00:00 [ERR] Not found error #1046352365: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:18:18.834 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:18:18.953 +00:00 [ERR] Not found error #1511962230: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:18:53.340 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:18:53.462 +00:00 [ERR] Not found error #1361283725: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:20:06.582 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:20:06.699 +00:00 [ERR] Not found error #67482587: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:20:42.337 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:20:42.450 +00:00 [ERR] Not found error #1612400064: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:21:07.211 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:21:07.346 +00:00 [ERR] Not found error #623090790: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:21:35.753 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:21:35.899 +00:00 [ERR] Not found error #137568592: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:22:13.517 +00:00 [INF] Calling Login. model: "myemail+1@gmail.com"
+2021-05-12 08:22:13.618 +00:00 [ERR] Not found error #598981324: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:22:21.729 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:22:21.832 +00:00 [ERR] Not found error #1335379652: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:23:30.592 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 08:25:30.421 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 08:25:39.560 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:25:39.675 +00:00 [ERR] Bad request error #1873400211: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 142
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:25:47.223 +00:00 [INF] Calling Login. model: "argent1721712@gmail.com"
+2021-05-12 08:25:47.315 +00:00 [ERR] Not found error #1048086135: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 111
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:25:51.045 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:26:22.263 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:35:10.749 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 08:35:10.794 +00:00 [INF] Service has been started
+2021-05-12 08:35:10.797 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 08:35:10.800 +00:00 [INF] Hosting environment: Development
+2021-05-12 08:35:10.803 +00:00 [INF] Content root path: /app
+2021-05-12 08:38:52.222 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 08:39:02.537 +00:00 [ERR] Server error #558092527: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:39:33.213 +00:00 [ERR] Server error #1438048573: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:40:22.409 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 08:40:22.452 +00:00 [INF] Service has been started
+2021-05-12 08:40:22.455 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 08:40:22.458 +00:00 [INF] Hosting environment: Development
+2021-05-12 08:40:22.460 +00:00 [INF] Content root path: /app
+2021-05-12 08:40:32.952 +00:00 [ERR] Server error #444448676: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:42:19.621 +00:00 [ERR] Server error #1446038256: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:42:23.624 +00:00 [ERR] Server error #2105872212: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:42:52.018 +00:00 [ERR] Server error #1939682087: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:43:48.550 +00:00 [ERR] Server error #188478377: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+System.InvalidOperationException: Unable to resolve service for type 'BusinessLayer_Guesser.Managers.GameManager' while attempting to activate 'Api_Guesser.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 08:44:51.854 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 08:44:51.901 +00:00 [INF] Service has been started
+2021-05-12 08:44:51.904 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 08:44:51.906 +00:00 [INF] Hosting environment: Development
+2021-05-12 08:44:51.908 +00:00 [INF] Content root path: /app
+2021-05-12 08:45:27.196 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":2,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-12 09:16:19.420 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 09:16:19.466 +00:00 [INF] Service has been started
+2021-05-12 09:16:19.469 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 09:16:19.472 +00:00 [INF] Hosting environment: Development
+2021-05-12 09:16:19.475 +00:00 [INF] Content root path: /app
+2021-05-12 09:16:20.601 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:18:54.539 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:19:22.689 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:19:26.581 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:19:50.992 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:20:31.532 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:20:40.240 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:20:41.884 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:23:30.084 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:24:03.989 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:24:07.939 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:24:33.524 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:25:12.686 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:27:11.973 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 09:27:14.961 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:28:35.355 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:29:09.428 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:29:42.633 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:29:55.615 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:29:59.311 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:30:50.936 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:35:41.561 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:38:23.174 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:39:18.462 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:39:19.732 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:39:21.241 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:40:01.723 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:40:25.133 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 09:40:25.837 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 10:58:22.590 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 10:58:22.783 +00:00 [ERR] Bad request error #715758267: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 142
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 166
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 10:58:24.595 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 11:01:43.291 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 11:01:46.279 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 11:02:06.977 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 11:02:18.505 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 11:31:19.644 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 11:31:31.585 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 11:34:13.576 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":2,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 11:35:22.931 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 13:45:51.105 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 13:57:47.894 +00:00 [INF] Calling SetUserStatus. request: {"id":1,"userStatus":1,"tokenToActivate":"zioa1937CV"}
+2021-05-12 13:58:01.113 +00:00 [INF] Calling SetUserStatus. request: {"id":1,"userStatus":1,"tokenToActivate":"zioa1937CV"}
+2021-05-12 13:58:05.658 +00:00 [ERR] Not found error #520634695: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.SetUserStatus(Int32 userId, UserStatus userStatus, String token, Int32 requesterTypeId) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 77
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 13:58:05.659 +00:00 [ERR] Not found error #216089317: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.SetUserStatus(Int32 userId, UserStatus userStatus, String token, Int32 requesterTypeId) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 77
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 13:59:50.642 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 13:59:50.691 +00:00 [INF] Service has been started
+2021-05-12 13:59:50.694 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 13:59:50.697 +00:00 [INF] Hosting environment: Development
+2021-05-12 13:59:50.701 +00:00 [INF] Content root path: /app
+2021-05-12 14:00:09.810 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"psrs5604IH"}
+2021-05-12 14:00:16.152 +00:00 [ERR] Server error #75121511: Nullable object must have a value.
+System.InvalidOperationException: Nullable object must have a value.
+   at System.Nullable`1.get_Value()
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 14:00:34.986 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"psrs5604IH"}
+2021-05-12 14:00:39.627 +00:00 [ERR] Server error #30677332: Nullable object must have a value.
+System.InvalidOperationException: Nullable object must have a value.
+   at System.Nullable`1.get_Value()
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 14:00:48.110 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"psrs5604IH"}
+2021-05-12 14:02:13.868 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 14:02:13.913 +00:00 [INF] Service has been started
+2021-05-12 14:02:13.916 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 14:02:13.919 +00:00 [INF] Hosting environment: Development
+2021-05-12 14:02:13.921 +00:00 [INF] Content root path: /app
+2021-05-12 14:02:25.530 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"psrs5604IH"}
+2021-05-12 14:02:51.421 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"psrs5604IH"}
+2021-05-12 14:03:00.568 +00:00 [ERR] Bad request error #1607187530: Password recovery code is incorrect or has expired.
+Shared_Guesser.BadRequestException: Password recovery code is incorrect or has expired.
+   at BusinessLayer_Guesser.Managers.UserManager.SetUserStatus(Int32 userId, UserStatus userStatus, String token, Int32 requesterTypeId) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 92
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 14:03:38.324 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 14:03:47.881 +00:00 [INF] Calling SetUserStatus. request: {"id":4,"userStatus":1,"tokenToActivate":"sfoj1024FR"}
+2021-05-12 14:05:34.483 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"psrs5604IH"}
+2021-05-12 14:07:16.014 +00:00 [ERR] Not found error #380676887: User not found
+Shared_Guesser.NotFoundException: User not found
+   at BusinessLayer_Guesser.Managers.UserManager.SetUserStatus(Int32 userId, UserStatus userStatus, String token, Int32 requesterTypeId) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 77
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 14:07:16.062 +00:00 [INF] Calling SetUserStatus. request: {"id":4,"userStatus":1,"tokenToActivate":"sfoj1024FR"}
+2021-05-12 14:09:00.752 +00:00 [ERR] Bad request error #1428115731: Password recovery code is incorrect or has expired.
+Shared_Guesser.BadRequestException: Password recovery code is incorrect or has expired.
+   at BusinessLayer_Guesser.Managers.UserManager.SetUserStatus(Int32 userId, UserStatus userStatus, String token, Int32 requesterTypeId) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 92
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 14:09:08.520 +00:00 [INF] Calling SetUserStatus. request: {"id":4,"userStatus":1,"tokenToActivate":"sfoj1024FR"}
+2021-05-12 14:09:08.651 +00:00 [ERR] Bad request error #1798514968: Password recovery code is incorrect or has expired.
+Shared_Guesser.BadRequestException: Password recovery code is incorrect or has expired.
+   at BusinessLayer_Guesser.Managers.UserManager.SetUserStatus(Int32 userId, UserStatus userStatus, String token, Int32 requesterTypeId) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 92
+   at Api_Guesser.Controllers.UserController.SetUserStatus(SetUserStatusRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-12 14:09:38.930 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 14:09:46.252 +00:00 [INF] Calling SetUserStatus. request: {"id":5,"userStatus":1,"tokenToActivate":"vtbt5990SW"}
+2021-05-12 14:10:35.796 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 14:10:35.841 +00:00 [INF] Service has been started
+2021-05-12 14:10:35.845 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 14:10:35.848 +00:00 [INF] Hosting environment: Development
+2021-05-12 14:10:35.851 +00:00 [INF] Content root path: /app
+2021-05-12 14:10:46.386 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 14:11:45.428 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-12 14:11:57.997 +00:00 [INF] Calling SetUserStatus. request: {"id":7,"userStatus":1,"tokenToActivate":"xzvt8007MJ"}
+2021-05-12 14:12:03.842 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 14:12:05.797 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:12:05.895 +00:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT t."Id", t."GameResultType", t."PlayedAt", t."PlayerId", u."Id", u."Details", u."Email", u."FirstName", u."FullName", u."LastName", u."NickName", u."Password", u."UserStatus", u."UserType"
+FROM (
+    SELECT g."Id", g."GameResultType", g."PlayedAt", g."PlayerId"
+    FROM "Game" AS g
+    ORDER BY (SELECT 1)
+    LIMIT @__p_0 OFFSET @__p_0
+) AS t
+INNER JOIN "User" AS u ON t."PlayerId" = u."Id"
+2021-05-12 14:12:05.944 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'DataLayer_Guesser.GuesserDBContext'.
+Npgsql.PostgresException (0x80004005): 2201X: OFFSET must not be negative
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 2201X
+    MessageText: OFFSET must not be negative
+    File: nodeLimit.c
+    Line: 374
+    Routine: recompute_limits
+Npgsql.PostgresException (0x80004005): 2201X: OFFSET must not be negative
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 2201X
+    MessageText: OFFSET must not be negative
+    File: nodeLimit.c
+    Line: 374
+    Routine: recompute_limits
+2021-05-12 14:12:06.187 +00:00 [ERR] Server error #83888463: 2201X: OFFSET must not be negative
+Npgsql.PostgresException (0x80004005): 2201X: OFFSET must not be negative
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.GameRepository.GetGames(GameConfigs config) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\GameRepository.cs:line 70
+   at BusinessLayer_Guesser.Managers.GameManager.GetGames(GameConfigs config) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\GameManager.cs:line 50
+   at Api_Guesser.Controllers.GameController.GetGames(GameConfigs config) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\GameController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+  Exception data:
+    Severity: ERROR
+    SqlState: 2201X
+    MessageText: OFFSET must not be negative
+    File: nodeLimit.c
+    Line: 374
+    Routine: recompute_limits
+2021-05-12 14:13:07.828 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":7,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-12 14:13:12.388 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:22:13.620 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:22:22.580 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:22:25.676 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:22:34.402 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:24:28.544 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-12 14:24:29.602 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:24:44.851 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 14:24:46.487 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 15:46:17.420 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 15:46:20.176 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":7,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-12 15:53:37.882 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 15:53:37.926 +00:00 [INF] Service has been started
+2021-05-12 15:53:37.928 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 15:53:37.930 +00:00 [INF] Hosting environment: Development
+2021-05-12 15:53:37.933 +00:00 [INF] Content root path: /app
+2021-05-12 15:53:51.587 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-12 15:53:51.632 +00:00 [INF] Service has been started
+2021-05-12 15:53:51.635 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 15:53:51.638 +00:00 [INF] Hosting environment: Development
+2021-05-12 15:53:51.640 +00:00 [INF] Content root path: /app

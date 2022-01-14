@@ -1,0 +1,732 @@
+2021-05-01 15:39:04.872 +00:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Cannot assign requested address'.
+2021-05-01 15:39:04.922 +00:00 [INF] Now listening on: http://localhost:5000
+2021-05-01 15:39:04.925 +00:00 [INF] Service has been started
+2021-05-01 15:39:04.928 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 15:39:04.931 +00:00 [INF] Hosting environment: Development
+2021-05-01 15:39:04.933 +00:00 [INF] Content root path: /app
+2021-05-01 15:40:12.627 +00:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Cannot assign requested address'.
+2021-05-01 15:40:12.676 +00:00 [INF] Now listening on: http://localhost:5000
+2021-05-01 15:40:12.679 +00:00 [INF] Service has been started
+2021-05-01 15:40:12.683 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 15:40:12.686 +00:00 [INF] Hosting environment: Development
+2021-05-01 15:40:12.689 +00:00 [INF] Content root path: /app
+2021-05-01 15:55:05.914 +00:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Cannot assign requested address'.
+2021-05-01 15:55:05.956 +00:00 [INF] Now listening on: http://localhost:5000
+2021-05-01 15:55:05.961 +00:00 [INF] Service has been started
+2021-05-01 15:55:05.963 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 15:55:05.965 +00:00 [INF] Hosting environment: Development
+2021-05-01 15:55:05.967 +00:00 [INF] Content root path: /app
+2021-05-01 15:56:59.387 +00:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Cannot assign requested address'.
+2021-05-01 15:56:59.434 +00:00 [INF] Now listening on: http://localhost:5000
+2021-05-01 15:56:59.438 +00:00 [INF] Service has been started
+2021-05-01 15:56:59.441 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 15:56:59.444 +00:00 [INF] Hosting environment: Development
+2021-05-01 15:56:59.446 +00:00 [INF] Content root path: /app
+2021-05-01 16:10:31.184 +00:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Cannot assign requested address'.
+2021-05-01 16:10:31.247 +00:00 [INF] Now listening on: http://localhost:5000
+2021-05-01 16:10:31.251 +00:00 [INF] Service has been started
+2021-05-01 16:10:31.254 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:10:31.257 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:10:31.260 +00:00 [INF] Content root path: /app
+2021-05-01 16:17:37.887 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:17:37.932 +00:00 [INF] Service has been started
+2021-05-01 16:17:37.935 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:17:37.938 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:17:37.941 +00:00 [INF] Content root path: /app
+2021-05-01 16:18:06.144 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:18:06.188 +00:00 [INF] Service has been started
+2021-05-01 16:18:06.190 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:18:06.192 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:18:06.194 +00:00 [INF] Content root path: /app
+2021-05-01 16:20:23.454 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:20:23.501 +00:00 [INF] Service has been started
+2021-05-01 16:20:23.505 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:20:23.507 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:20:23.510 +00:00 [INF] Content root path: /app
+2021-05-01 16:21:23.707 +00:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Cannot assign requested address'.
+2021-05-01 16:21:23.761 +00:00 [INF] Now listening on: http://localhost:5000
+2021-05-01 16:21:23.765 +00:00 [INF] Service has been started
+2021-05-01 16:21:23.768 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:21:23.770 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:21:23.772 +00:00 [INF] Content root path: /app
+2021-05-01 16:24:02.325 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:24:02.373 +00:00 [INF] Service has been started
+2021-05-01 16:24:02.377 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:24:02.379 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:24:02.382 +00:00 [INF] Content root path: /app
+2021-05-01 16:24:50.927 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:25:03.536 +00:00 [ERR] Not found error #1113801004: User with provided email: argent172172@gmail.com not found.
+Shared_Guesser.NotFoundException: User with provided email: argent172172@gmail.com not found.
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.GetUserByEmail(String email) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 41
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 134
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 103
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:25:29.235 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:25:29.281 +00:00 [INF] Service has been started
+2021-05-01 16:25:29.285 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:25:29.289 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:25:29.292 +00:00 [INF] Content root path: /app
+2021-05-01 16:25:29.797 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:25:43.148 +00:00 [ERR] Not found error #1760508738: User with provided Id: 0 not found.
+Shared_Guesser.NotFoundException: User with provided Id: 0 not found.
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.GetUserById(Int32 id) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 31
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 163
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 103
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:26:31.021 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:26:31.068 +00:00 [INF] Service has been started
+2021-05-01 16:26:31.072 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:26:31.076 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:26:31.078 +00:00 [INF] Content root path: /app
+2021-05-01 16:26:43.440 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:30:01.895 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:30:01.942 +00:00 [INF] Service has been started
+2021-05-01 16:30:01.946 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:30:01.949 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:30:01.951 +00:00 [INF] Content root path: /app
+2021-05-01 16:30:19.914 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:31:02.900 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-01 16:31:03.135 +00:00 [ERR] Bad request error #1184750697: User with Email argent172172@gmail.com is registered, but not activated.
+Check mail to activate user.
+Shared_Guesser.BadRequestException: User with Email argent172172@gmail.com is registered, but not activated.
+Check mail to activate user.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 77
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 168
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:31:39.529 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:38:59.915 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:38:59.960 +00:00 [INF] Service has been started
+2021-05-01 16:38:59.963 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:38:59.966 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:38:59.969 +00:00 [INF] Content root path: /app
+2021-05-01 16:39:19.405 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:39:25.981 +00:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (DbType = Int32), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+INSERT INTO "User" ("Details", "Email", "FirstName", "FullName", "LastName", "NickName", "Password", "UserStatus", "UserType")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+2021-05-01 16:39:26.059 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'DataLayer_Guesser.GuesserDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (4, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEGwczJrVt60cO+Koe8yVEAzyDgyA7E3PM2RFpnvpuOo0x0/z..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (4, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEGwczJrVt60cO+Koe8yVEAzyDgyA7E3PM2RFpnvpuOo0x0/z..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-05-01 16:39:26.309 +00:00 [ERR] Server error #906105401: An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (4, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEGwczJrVt60cO+Koe8yVEAzyDgyA7E3PM2RFpnvpuOo0x0/z..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 156
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 103
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:41:48.336 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:41:48.384 +00:00 [INF] Service has been started
+2021-05-01 16:41:48.386 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:41:48.389 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:41:48.392 +00:00 [INF] Content root path: /app
+2021-05-01 16:41:53.494 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:41:58.381 +00:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (DbType = Int32), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+INSERT INTO "User" ("Details", "Email", "FirstName", "FullName", "LastName", "NickName", "Password", "UserStatus", "UserType")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+2021-05-01 16:41:58.448 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'DataLayer_Guesser.GuesserDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (5, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEM5eJ2sJPRvgtldoK1M3Ojpe8FQjvk3U0hCHohQ04GLOHb0K..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (5, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEM5eJ2sJPRvgtldoK1M3Ojpe8FQjvk3U0hCHohQ04GLOHb0K..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-05-01 16:41:58.652 +00:00 [ERR] Server error #1421015687: An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (5, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEM5eJ2sJPRvgtldoK1M3Ojpe8FQjvk3U0hCHohQ04GLOHb0K..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 152
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:42:05.637 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:42:15.719 +00:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (DbType = Int32), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+INSERT INTO "User" ("Details", "Email", "FirstName", "FullName", "LastName", "NickName", "Password", "UserStatus", "UserType")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+2021-05-01 16:42:15.736 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'DataLayer_Guesser.GuesserDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (6, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEHHea6NwhRGU3jxNuT8RzzQdRK6JlCPFsqCUN7A6UExXgN9g..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (6, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEHHea6NwhRGU3jxNuT8RzzQdRK6JlCPFsqCUN7A6UExXgN9g..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-05-01 16:42:15.917 +00:00 [ERR] Server error #771505: An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Details" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Details" violates not-null constraint
+    Detail: Failing row contains (6, Argent, Nikolay, Podolyan, Nikolay Podolyan, argent172172@gmail.com, AQAAAAEAACcQAAAAEHHea6NwhRGU3jxNuT8RzzQdRK6JlCPFsqCUN7A6UExXgN9g..., null, 0, 0).
+    SchemaName: public
+    TableName: User
+    ColumnName: Details
+    File: execMain.c
+    Line: 1965
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 152
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:42:35.249 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:42:35.299 +00:00 [INF] Service has been started
+2021-05-01 16:42:35.302 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:42:35.305 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:42:35.307 +00:00 [INF] Content root path: /app
+2021-05-01 16:44:16.090 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:44:16.133 +00:00 [INF] Service has been started
+2021-05-01 16:44:16.136 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:44:16.139 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:44:16.142 +00:00 [INF] Content root path: /app
+2021-05-01 16:44:18.438 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:44:46.265 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:45:28.317 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:45:28.366 +00:00 [INF] Service has been started
+2021-05-01 16:45:28.370 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:45:28.372 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:45:28.375 +00:00 [INF] Content root path: /app
+2021-05-01 16:45:32.478 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:45:49.636 +00:00 [ERR] Bad request error #1568252145: User with Email argent172172@gmail.com is registered, but not activated.
+Activation letter resended.
+Shared_Guesser.BadRequestException: User with Email argent172172@gmail.com is registered, but not activated.
+Activation letter resended.
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 137
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:46:35.359 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:46:43.794 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'DataLayer_Guesser.GuesserDBContext'.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-05-01 16:46:58.544 +00:00 [ERR] Server error #1336152137: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.GetUserById(Int32 id) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 29
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 155
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:49:33.481 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:49:33.527 +00:00 [INF] Service has been started
+2021-05-01 16:49:33.532 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:49:33.534 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:49:33.537 +00:00 [INF] Content root path: /app
+2021-05-01 16:49:56.150 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:50:26.920 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:50:53.771 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'DataLayer_Guesser.GuesserDBContext'.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-05-01 16:50:53.985 +00:00 [ERR] Server error #235393922: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.GetUserById(Int32 id) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 29
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 155
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:51:42.329 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:51:43.851 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'DataLayer_Guesser.GuesserDBContext'.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-05-01 16:51:44.804 +00:00 [ERR] Server error #479007887: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.GetUserById(Int32 id) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 29
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 155
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:53:35.993 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:53:36.046 +00:00 [INF] Service has been started
+2021-05-01 16:53:36.049 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:53:36.051 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:53:36.054 +00:00 [INF] Content root path: /app
+2021-05-01 16:53:39.647 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:53:56.871 +00:00 [ERR] Server error #488294345: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Shared_Guesser.Helpers.ExtensionHelper.SendEmail(String receiverEmail, String messageHTML, String subject) in C:\Users\argen\source\repos\Guesser\Shared_Guesser\Helpers\ExtensionHelper.cs:line 64
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.SendMessage(String email, MessageTypes messageType) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 272
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 154
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:55:09.802 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:55:09.846 +00:00 [INF] Service has been started
+2021-05-01 16:55:09.849 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:55:09.852 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:55:09.855 +00:00 [INF] Content root path: /app
+2021-05-01 16:55:23.463 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 16:55:55.031 +00:00 [ERR] Server error #1063141106: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Shared_Guesser.Helpers.ExtensionHelper.SendEmail(String receiverEmail, String messageHTML, String subject) in C:\Users\argen\source\repos\Guesser\Shared_Guesser\Helpers\ExtensionHelper.cs:line 65
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.SendMessage(String email, MessageTypes messageType) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 272
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\argen\source\repos\Guesser\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 154
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(User user) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 113
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-01 16:57:49.661 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:57:49.719 +00:00 [INF] Service has been started
+2021-05-01 16:57:49.722 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:57:49.724 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:57:49.728 +00:00 [INF] Content root path: /app
+2021-05-01 16:58:10.810 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 16:58:10.864 +00:00 [INF] Service has been started
+2021-05-01 16:58:10.867 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 16:58:10.870 +00:00 [INF] Hosting environment: Development
+2021-05-01 16:58:10.872 +00:00 [INF] Content root path: /app
+2021-05-01 16:58:29.782 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 17:10:20.131 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 17:10:20.178 +00:00 [INF] Service has been started
+2021-05-01 17:10:20.180 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 17:10:20.183 +00:00 [INF] Hosting environment: Development
+2021-05-01 17:10:20.187 +00:00 [INF] Content root path: /app
+2021-05-01 17:10:29.779 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 17:13:55.901 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 17:13:55.945 +00:00 [INF] Service has been started
+2021-05-01 17:13:55.948 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 17:13:55.951 +00:00 [INF] Hosting environment: Development
+2021-05-01 17:13:55.954 +00:00 [INF] Content root path: /app
+2021-05-01 17:13:56.567 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 17:38:56.538 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 17:38:56.592 +00:00 [INF] Service has been started
+2021-05-01 17:38:56.595 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 17:38:56.598 +00:00 [INF] Hosting environment: Development
+2021-05-01 17:38:56.601 +00:00 [INF] Content root path: /app
+2021-05-01 17:39:05.001 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 17:49:33.791 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 17:49:33.837 +00:00 [INF] Service has been started
+2021-05-01 17:49:33.840 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 17:49:33.842 +00:00 [INF] Hosting environment: Development
+2021-05-01 17:49:33.845 +00:00 [INF] Content root path: /app
+2021-05-01 17:49:39.405 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-01 17:51:42.299 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 17:51:42.356 +00:00 [INF] Service has been started
+2021-05-01 17:51:42.360 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 17:51:42.362 +00:00 [INF] Hosting environment: Development
+2021-05-01 17:51:42.365 +00:00 [INF] Content root path: /app
+2021-05-01 17:52:04.374 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolian","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123!"}
+2021-05-01 17:53:14.641 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 17:53:14.692 +00:00 [INF] Service has been started
+2021-05-01 17:53:14.696 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 17:53:14.699 +00:00 [INF] Hosting environment: Development
+2021-05-01 17:53:14.702 +00:00 [INF] Content root path: /app
+2021-05-01 17:53:23.849 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolian","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123!"}
+2021-05-01 18:00:09.897 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 18:00:09.944 +00:00 [INF] Service has been started
+2021-05-01 18:00:09.947 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 18:00:09.949 +00:00 [INF] Hosting environment: Development
+2021-05-01 18:00:09.952 +00:00 [INF] Content root path: /app
+2021-05-01 18:00:39.028 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolian","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123!"}
+2021-05-01 18:02:41.270 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 18:02:41.318 +00:00 [INF] Service has been started
+2021-05-01 18:02:41.322 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 18:02:41.325 +00:00 [INF] Hosting environment: Development
+2021-05-01 18:02:41.327 +00:00 [INF] Content root path: /app
+2021-05-01 18:03:12.183 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolian","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123!"}
+2021-05-01 18:10:47.009 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 18:10:47.058 +00:00 [INF] Service has been started
+2021-05-01 18:10:47.062 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 18:10:47.065 +00:00 [INF] Hosting environment: Development
+2021-05-01 18:10:47.068 +00:00 [INF] Content root path: /app
+2021-05-01 18:11:03.573 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-01 18:11:03.616 +00:00 [INF] Service has been started
+2021-05-01 18:11:03.619 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-01 18:11:03.623 +00:00 [INF] Hosting environment: Development
+2021-05-01 18:11:03.626 +00:00 [INF] Content root path: /app
+2021-05-01 18:11:04.122 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolian","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123!"}

@@ -1,0 +1,78 @@
+2021-05-04 07:08:19.193 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-04 07:08:19.247 +00:00 [INF] Service has been started
+2021-05-04 07:08:19.250 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-04 07:08:19.253 +00:00 [INF] Hosting environment: Development
+2021-05-04 07:08:19.256 +00:00 [INF] Content root path: /app
+2021-05-04 07:09:07.788 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-04 07:11:20.903 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 07:11:21.125 +00:00 [ERR] Bad request error #457439243: User with Email argent172172@gmail.com is registered, but not activated.
+Check mail to activate user.
+Shared_Guesser.BadRequestException: User with Email argent172172@gmail.com is registered, but not activated.
+Check mail to activate user.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 88
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 156
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-04 07:14:13.197 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-04 07:14:13.239 +00:00 [INF] Service has been started
+2021-05-04 07:14:13.243 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-04 07:14:13.247 +00:00 [INF] Hosting environment: Development
+2021-05-04 07:14:13.249 +00:00 [INF] Content root path: /app
+2021-05-04 07:14:14.360 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-04 07:14:21.565 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 07:32:44.255 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-04 07:32:44.300 +00:00 [INF] Service has been started
+2021-05-04 07:32:44.303 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-04 07:32:44.305 +00:00 [INF] Hosting environment: Development
+2021-05-04 07:32:44.308 +00:00 [INF] Content root path: /app
+2021-05-04 07:51:41.877 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-04 07:51:41.921 +00:00 [INF] Service has been started
+2021-05-04 07:51:41.923 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-04 07:51:41.926 +00:00 [INF] Hosting environment: Development
+2021-05-04 07:51:41.928 +00:00 [INF] Content root path: /app
+2021-05-04 09:06:52.823 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:07:57.205 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-04 09:07:57.250 +00:00 [INF] Service has been started
+2021-05-04 09:07:57.252 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-04 09:07:57.255 +00:00 [INF] Hosting environment: Development
+2021-05-04 09:07:57.258 +00:00 [INF] Content root path: /app
+2021-05-04 09:08:02.141 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:08:16.779 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:08:41.468 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:10:43.502 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:11:01.782 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:11:30.677 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:11:31.672 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:11:32.377 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:11:39.917 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:12:18.238 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:14:08.438 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:14:33.432 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:14:51.482 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:14:51.687 +00:00 [ERR] Bad request error #1106659447: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 108
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 156
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-04 09:52:51.370 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-04 09:54:41.814 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Nikolay","lastName":"Podolyan","nickName":"Argent","email":"argent172172@gmail.com","password":"Password123"}
+2021-05-04 09:55:54.572 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:56:25.078 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-04 09:58:03.221 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"

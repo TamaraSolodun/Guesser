@@ -1,0 +1,40 @@
+.listContainer {
+  margin: 1%;
+  position: absolute;
+  top: 7%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 25%;
+  width: 15%;
+  height: 100%;
+}
+
+.liContainer {
+  overflow-y: auto;
+  max-height: 19vh;
+  & > li > div {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    border: rgba(51, 93, 255, 0.7) solid;
+    border-radius: 5px;
+    & > span{
+      padding-left: 12px;
+      color: white;
+      font-size: 20px;
+    }
+    & > p {
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+.listRoot > * {
+  color: white;
+  display: block;
+}

@@ -1,0 +1,47 @@
+2021-05-11 16:34:30.634 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-11 16:34:30.675 +00:00 [INF] Service has been started
+2021-05-11 16:34:30.678 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-11 16:34:30.680 +00:00 [INF] Hosting environment: Development
+2021-05-11 16:34:30.682 +00:00 [INF] Content root path: /app
+2021-05-11 16:35:49.137 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 16:36:31.001 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-11 16:36:31.042 +00:00 [INF] Service has been started
+2021-05-11 16:36:31.045 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-11 16:36:31.047 +00:00 [INF] Hosting environment: Development
+2021-05-11 16:36:31.050 +00:00 [INF] Content root path: /app
+2021-05-11 16:41:45.059 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 16:41:45.542 +00:00 [ERR] Bad request error #360969639: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\argen\source\repos\Guesser\BusinessLayer_Guessser\Managers\UserManager.cs:line 108
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Controllers\UserController.cs:line 156
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\argen\source\repos\Guesser\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-11 16:42:08.250 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 16:43:40.254 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Tamara","lastName":"Solodun","nickName":"Pomidorka","email":"toma.solodun@gmail.com","password":"Password123"}
+2021-05-11 16:49:28.853 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-11 17:09:32.226 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-11 17:09:32.273 +00:00 [INF] Service has been started
+2021-05-11 17:09:32.277 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-11 17:09:32.280 +00:00 [INF] Hosting environment: Development
+2021-05-11 17:09:32.282 +00:00 [INF] Content root path: /app
+2021-05-11 17:09:42.402 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 17:29:01.803 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 17:32:35.916 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 17:46:28.821 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 17:47:08.816 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 17:47:46.498 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 17:50:29.323 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 18:19:30.935 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 18:19:43.784 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 18:20:36.076 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 18:20:49.222 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 18:25:34.046 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"
+2021-05-11 18:51:42.858 +00:00 [INF] Calling Login. model: "argent172172@gmail.com"

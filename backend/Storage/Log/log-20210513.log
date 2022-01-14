@@ -1,0 +1,172 @@
+2021-05-13 07:20:16.446 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-13 07:20:16.524 +00:00 [INF] Service has been started
+2021-05-13 07:20:16.529 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-13 07:20:16.538 +00:00 [INF] Hosting environment: Development
+2021-05-13 07:20:16.547 +00:00 [INF] Content root path: /app
+2021-05-13 07:28:00.249 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Тамара","lastName":"Солодун","nickName":"toma1004","email":"toma.solodun@gmail.com","password":"Password123"}
+2021-05-13 07:28:11.228 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 07:30:06.364 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 07:32:35.255 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-13 07:32:35.324 +00:00 [INF] Service has been started
+2021-05-13 07:32:35.328 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-13 07:32:35.332 +00:00 [INF] Hosting environment: Development
+2021-05-13 07:32:35.335 +00:00 [INF] Content root path: /app
+2021-05-13 07:33:39.298 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Tamara","lastName":"Solodun","nickName":"Tamara1004","email":"toma.solodun@gmail.com","password":"tamara1004"}
+2021-05-13 07:33:47.576 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 07:33:48.006 +00:00 [ERR] Bad request error #210973808: User with Email toma.solodun@gmail.com is registered, but not activated.
+Check mail to activate user.
+Shared_Guesser.BadRequestException: User with Email toma.solodun@gmail.com is registered, but not activated.
+Check mail to activate user.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 93
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 07:34:13.126 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 07:34:13.351 +00:00 [ERR] Bad request error #2059391333: User with Email toma.solodun@gmail.com is registered, but not activated.
+Check mail to activate user.
+Shared_Guesser.BadRequestException: User with Email toma.solodun@gmail.com is registered, but not activated.
+Check mail to activate user.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 93
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 170
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 07:39:52.120 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-13 07:39:52.200 +00:00 [INF] Service has been started
+2021-05-13 07:39:52.210 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-13 07:39:52.214 +00:00 [INF] Hosting environment: Development
+2021-05-13 07:39:52.218 +00:00 [INF] Content root path: /app
+2021-05-13 07:40:06.506 +00:00 [INF] Calling SetUserStatus. request: {"id":3,"userStatus":1,"tokenToActivate":"anin3841ZW"}
+2021-05-13 07:40:25.507 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 07:42:25.337 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 07:42:31.696 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 07:44:59.509 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 07:57:25.901 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 07:58:06.841 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:00:18.535 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":1,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:00:25.016 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:02:18.547 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Тамара1","lastName":"Solodun1","nickName":"TS1","email":"toma.solodun@gmail.com","password":"TamaraSolodun1"}
+2021-05-13 08:02:18.908 +00:00 [ERR] Bad request error #52508669: User with Email toma.solodun@gmail.com is registered
+Shared_Guesser.BadRequestException: User with Email toma.solodun@gmail.com is registered
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\Toma\Desktop\Guesser\backend\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 106
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(UserRequest user) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 148
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 08:03:14.731 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 08:03:17.173 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:03:54.144 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:04:19.622 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":1,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:06:12.872 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:06:49.293 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":1,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:07:25.848 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:08:03.457 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:08:16.701 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":1,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:08:44.351 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":1,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:09:11.630 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:09:16.610 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:18:19.991 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:19:19.488 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:20:14.468 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:21:19.419 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:21:40.712 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:23:24.787 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:25:18.683 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:29:13.064 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:31:41.589 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:32:24.887 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":1,"playerId":3,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 08:32:36.360 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 08:36:12.056 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 09:41:12.859 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":3,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 09:42:08.374 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Тамара","lastName":"Solodun","nickName":"TS04","email":"toma.solodun@gmail.com","password":"TamaraSolodun04"}
+2021-05-13 09:42:10.837 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Тамара","lastName":"Solodun","nickName":"TS04","email":"toma.solodun@gmail.com","password":"TamaraSolodun04"}
+2021-05-13 09:42:11.266 +00:00 [ERR] Bad request error #804811305: User with Email toma.solodun@gmail.com is registered, but not activated.
+Check your mail to finish registering process.
+Shared_Guesser.BadRequestException: User with Email toma.solodun@gmail.com is registered, but not activated.
+Check your mail to finish registering process.
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\Toma\Desktop\Guesser\backend\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 99
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(UserRequest user) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 148
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 09:42:38.573 +00:00 [INF] Calling SetUserStatus. request: {"id":4,"userStatus":1,"tokenToActivate":"dcpw9067DJ"}
+2021-05-13 09:42:47.116 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 09:42:47.531 +00:00 [ERR] Bad request error #1426378074: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 142
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 167
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 09:42:50.170 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 09:42:50.466 +00:00 [ERR] Bad request error #1149691415: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 142
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 167
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 09:43:01.736 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 09:43:02.078 +00:00 [ERR] Bad request error #527238473: Provided user password is incorrect or other error is occurred.
+Shared_Guesser.BadRequestException: Provided user password is incorrect or other error is occurred.
+   at BusinessLayer_Guesser.Managers.UserManager.LoginUser(UserLoginModel loginModel) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 142
+   at Api_Guesser.Controllers.UserController.Login(UserLoginModel model) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 167
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-13 09:43:12.791 +00:00 [INF] Calling Login. model: "toma.solodun@gmail.com"
+2021-05-13 09:43:44.483 +00:00 [INF] Calling CreateGame. Game: {"id":0,"gameResultType":0,"playerId":4,"playedAt":"0001-01-01T00:00:00","player":null}
+2021-05-13 09:43:53.721 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":4,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}
+2021-05-13 09:55:01.061 +00:00 [INF] Calling GetGames. config: {"resultType":null,"playedDateFrom":null,"playedDateTo":null,"playerId":4,"currentPage":0,"itemsOnPage":0,"sortingDirection":null}

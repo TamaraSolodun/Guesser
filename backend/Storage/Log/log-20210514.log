@@ -1,0 +1,37 @@
+2021-05-14 10:12:32.111 +00:00 [INF] Now listening on: http://[::]:80
+2021-05-14 10:12:32.173 +00:00 [INF] Service has been started
+2021-05-14 10:12:32.178 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-14 10:12:32.181 +00:00 [INF] Hosting environment: Development
+2021-05-14 10:12:32.185 +00:00 [INF] Content root path: /app
+2021-05-14 10:14:36.078 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Tamara","lastName":"Solodun","nickName":"TS","email":"toma.solodun@gmail.com","password":"TS10042002"}
+2021-05-14 10:14:36.790 +00:00 [ERR] Bad request error #1898658806: User with Email toma.solodun@gmail.com is registered
+Shared_Guesser.BadRequestException: User with Email toma.solodun@gmail.com is registered
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\Toma\Desktop\Guesser\backend\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 106
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(UserRequest user) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 148
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22
+2021-05-14 10:14:40.358 +00:00 [INF] Calling UserRegister. UserRequest: {"firstName":"Tamara","lastName":"Solodun","nickName":"TS","email":"toma.solodun@gmail.com","password":"TS10042002"}
+2021-05-14 10:14:40.623 +00:00 [ERR] Bad request error #1385322063: User with Email toma.solodun@gmail.com is registered
+Shared_Guesser.BadRequestException: User with Email toma.solodun@gmail.com is registered
+   at DataLayer_Guesser.RepositoryImplementations.UserRepository.CreateUser(User userToCreate) in C:\Users\Toma\Desktop\Guesser\backend\DataLayer_Guesser\RepositoryImplementations\UserRepository.cs:line 106
+   at BusinessLayer_Guesser.Managers.UserManager.RegisterUser(UserRequest user) in C:\Users\Toma\Desktop\Guesser\backend\BusinessLayer_Guessser\Managers\UserManager.cs:line 148
+   at Api_Guesser.Controllers.UserController.UserRegister(UserRequest request) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Controllers\UserController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Api_Guesser.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\Toma\Desktop\Guesser\backend\Api_Guesser\Middleware\ErrorHandlingMiddleware.cs:line 22

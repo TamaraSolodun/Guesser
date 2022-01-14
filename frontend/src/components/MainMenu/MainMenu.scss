@@ -1,0 +1,18 @@
+
+.menuContainerBase{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.menuContainerInside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  & > button{
+    width: 100%;
+    margin: 7px;
+    max-width: 300px;
+  }
+}

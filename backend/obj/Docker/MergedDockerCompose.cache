@@ -1,0 +1,90 @@
+networks:
+  guesser: {}
+services:
+  api-n1:
+    build:
+      context: C:\Users\Toma\Desktop\Guesser\backend
+      dockerfile: Api_Guesser/Dockerfile
+    container_name: api-n1
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    networks:
+      guesser: null
+    restart: always
+    volumes:
+    - C:\Users\Toma\Desktop\Guesser\backend\Storage\Log:/app/log:rw
+  grafana:
+    build:
+      context: C:\Users\Toma\Desktop\Guesser\backend\Containers\Grafana
+      dockerfile: Dockerfile
+    container_name: grafana
+    networks:
+      guesser: null
+    ports:
+    - published: 3050
+      target: 3000
+    restart: always
+    volumes:
+    - C:\Users\Toma\Desktop\Guesser\backend\Storage\Grafana:/var/lib/grafana:rw
+  loki:
+    build:
+      context: C:\Users\Toma\Desktop\Guesser\backend\Containers\Loki
+      dockerfile: Dockerfile
+    command: -config.file=/etc/loki/local-config.yaml
+    container_name: loki
+    networks:
+      guesser: null
+    ports:
+    - published: 3100
+      target: 3100
+    restart: always
+  nginx:
+    build:
+      context: C:\Users\Toma\Desktop\Guesser\backend\Containers\Nginx
+      dockerfile: Dockerfile
+    container_name: nginx
+    depends_on:
+      api-n1:
+        condition: service_started
+    networks:
+      guesser: null
+    ports:
+    - published: 80
+      target: 80
+    restart: always
+  postgres:
+    build:
+      context: C:\Users\Toma\Desktop\Guesser\backend\Containers\Postgres
+      dockerfile: Dockerfile
+    container_name: postgres
+    environment:
+      POSTGRES_DB: guesserDb
+      POSTGRES_PASSWORD: Gu10es04ser
+      POSTGRES_USER: root
+    networks:
+      guesser: null
+    ports:
+    - published: 6000
+      target: 5432
+    restart: always
+    volumes:
+    - guesservol:/var/lib/postgresql/data:rw
+  promtail:
+    build:
+      context: C:\Users\Toma\Desktop\Guesser\backend\Containers\Promtail
+      dockerfile: Dockerfile
+    command: -config.file=/etc/promtail/config.yml
+    container_name: promtail
+    networks:
+      guesser: null
+    ports:
+    - published: 9080
+      target: 9080
+    restart: always
+    volumes:
+    - C:\Users\Toma\Desktop\Guesser\backend\Storage\Log:/var/log:rw
+version: '3.4'
+volumes:
+  guesservol:
+    external: true
+    name: guesservol
